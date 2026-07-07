@@ -28,7 +28,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -54,16 +54,16 @@
       </a>
 
       <nav class="nav" id="nav">
-        <a href="#hero" class="nav__link is-active" data-en="Home">Accueil</a>
-        <a href="#about" class="nav__link" data-en="About">À propos</a>
-        <a href="#services" class="nav__link" data-en="Services">Services</a>
-        <a href="#experience" class="nav__link" data-en="Experience">Expérience</a>
-        <a href="#method" class="nav__link" data-en="Process">Processus</a>
-        <a href="#contact" class="nav__link" data-en="Contact">Contact</a>
-        <a href="#contact" class="btn btn--primary nav__cta" data-en="Get in touch">Contactez-nous</a>
+        <a href="#hero" class="nav__link is-active" data-en="Home" data-ar="الرئيسية">Accueil</a>
+        <a href="#about" class="nav__link" data-en="About" data-ar="من نحن">À propos</a>
+        <a href="#services" class="nav__link" data-en="Services" data-ar="خدماتنا">Services</a>
+        <a href="#experience" class="nav__link" data-en="Experience" data-ar="خبرتنا">Expérience</a>
+        <a href="#method" class="nav__link" data-en="Process" data-ar="منهجيتنا">Processus</a>
+        <a href="#contact" class="nav__link" data-en="Contact" data-ar="اتصل بنا">Contact</a>
+        <a href="#contact" class="btn btn--primary nav__cta" data-en="Get in touch" data-ar="تواصل معنا">Contactez-nous</a>
       </nav>
 
-      <div class="lang" role="group" aria-label="Choisir la langue / Choose language">
+      <div class="lang" role="group" aria-label="Choisir la langue / Choose language / اختر اللغة">
         <button class="lang__btn is-active" data-lang="fr" aria-label="Français" title="Français">
           <svg class="flag" viewBox="0 0 3 2" preserveAspectRatio="none" aria-hidden="true">
             <rect width="3" height="2" fill="#fff"/><rect width="1" height="2" fill="#0055A4"/><rect width="1" height="2" x="2" fill="#EF4135"/>
@@ -76,6 +76,12 @@
             <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="3"/>
             <path d="M30,0 V30 M0,15 H60" stroke="#fff" stroke-width="10"/>
             <path d="M30,0 V30 M0,15 H60" stroke="#C8102E" stroke-width="6"/>
+          </svg>
+        </button>
+        <button class="lang__btn" data-lang="ar" aria-label="العربية" title="العربية">
+          <svg class="flag" viewBox="0 0 60 40" preserveAspectRatio="none" aria-hidden="true">
+            <rect width="60" height="40" fill="#c1272d"/>
+            <path d="M30 11 L36.9 30.5 L20.3 18.4 L39.7 18.4 L23.1 30.5 Z" fill="none" stroke="#006233" stroke-width="1.6"/>
           </svg>
         </button>
       </div>
@@ -94,25 +100,25 @@
       <div class="container hero__inner">
         <div class="hero__layout">
           <div class="hero__content">
-            <span class="eyebrow reveal" data-en="Engineering · Energy · Infrastructure · Supply">Ingénierie · Énergie · Infrastructures · Approvisionnement</span>
+            <span class="eyebrow reveal" data-en="Engineering · Energy · Infrastructure · Supply" data-ar="الهندسة · الطاقة · البنية التحتية · التوريد">Ingénierie · Énergie · Infrastructures · Approvisionnement</span>
             <h1 class="hero__title">
-              <span class="reveal" style="--d:.05s" data-en="INFRASTRUCTURE">INFRASTRUCTURE</span>
-              <span class="reveal" style="--d:.12s" data-en="& ENERGY">& ÉNERGIE</span>
-              <span class="reveal grad" style="--d:.2s" data-en="IN MOROCCO.">AU MAROC.</span>
+              <span class="reveal" style="--d:.05s" data-en="INFRASTRUCTURE" data-ar="البنية التحتية">INFRASTRUCTURE</span>
+              <span class="reveal" style="--d:.12s" data-en="& ENERGY" data-ar="والطاقة">& ÉNERGIE</span>
+              <span class="reveal grad" style="--d:.2s" data-en="IN MOROCCO." data-ar="في المغرب.">AU MAROC.</span>
             </h1>
-            <p class="hero__lead reveal" style="--d:.28s" data-en="A strategic platform connecting international technical expertise with local execution — structuring high-value participation in Morocco's infrastructure and energy sectors, from bid to execution.">
+            <p class="hero__lead reveal" style="--d:.28s" data-en="A strategic platform connecting international technical expertise with local execution — structuring high-value participation in Morocco's infrastructure and energy sectors, from bid to execution." data-ar="منصة استراتيجية تربط الخبرة التقنية الدولية بالتنفيذ المحلي، لهيكلة مشاركة عالية القيمة في قطاعَي البنية التحتية والطاقة في المغرب — من طرح العطاء إلى التنفيذ.">
               Une plateforme stratégique qui relie l'expertise technique internationale à l'exécution locale,
               pour structurer une participation à forte valeur ajoutée dans les secteurs marocains de
               l'infrastructure et de l'énergie — de l'appel d'offres à l'exécution.
             </p>
             <div class="hero__actions reveal" style="--d:.4s">
-              <a href="#contact" class="btn btn--primary btn--lg" data-en="Discuss a project">Discuter d'un projet</a>
-              <a href="#services" class="btn btn--ghost btn--lg" data-en="Our services">Nos services</a>
+              <a href="#contact" class="btn btn--primary btn--lg" data-en="Discuss a project" data-ar="لنناقش مشروعك">Discuter d'un projet</a>
+              <a href="#services" class="btn btn--ghost btn--lg" data-en="Our services" data-ar="خدماتنا">Nos services</a>
             </div>
             <div class="hero__meta reveal" style="--d:.52s">
-              <div class="hero__point"><span class="dot"></span><span data-en="Bid & tender management">Gestion d'appels d'offres</span></div>
-              <div class="hero__point"><span class="dot"></span><span data-en="Technical structuring">Structuration technique</span></div>
-              <div class="hero__point"><span class="dot"></span><span data-en="Market access">Accès au marché</span></div>
+              <div class="hero__point"><span class="dot"></span><span data-en="Bid & tender management" data-ar="إدارة العطاءات">Gestion d'appels d'offres</span></div>
+              <div class="hero__point"><span class="dot"></span><span data-en="Technical structuring" data-ar="الهيكلة التقنية">Structuration technique</span></div>
+              <div class="hero__point"><span class="dot"></span><span data-en="Market access" data-ar="الوصول إلى السوق">Accès au marché</span></div>
             </div>
           </div>
 
@@ -123,8 +129,8 @@
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
               </span>
               <div>
-                <strong data-en="Based in Morocco">Basée au Maroc</strong>
-                <span data-en="Casablanca">Casablanca</span>
+                <strong data-en="Based in Morocco" data-ar="مقرّها في المغرب">Basée au Maroc</strong>
+                <span data-en="Casablanca" data-ar="الدار البيضاء">Casablanca</span>
               </div>
             </div>
             <div class="hero__card hero__card--2">
@@ -132,8 +138,8 @@
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
               </span>
               <div>
-                <strong data-en="Bid → Execution">De l'offre à l'exécution</strong>
-                <span data-en="full lifecycle management">gestion du cycle complet</span>
+                <strong data-en="Bid → Execution" data-ar="من العطاء إلى التنفيذ">De l'offre à l'exécution</strong>
+                <span data-en="full lifecycle management" data-ar="إدارة الدورة الكاملة">gestion du cycle complet</span>
               </div>
             </div>
           </div>
@@ -148,9 +154,9 @@
     <section class="pillars" id="about">
       <div class="container">
         <div class="section-head reveal">
-          <span class="section-head__tag" data-en="Company overview">Qui sommes-nous</span>
-          <h2 data-en="Integrated solutions across engineering, energy, infrastructure & supply">Des solutions intégrées en ingénierie, énergie, infrastructures & approvisionnement</h2>
-          <p data-en="Melcor International Group is a Morocco-based company operating as a strategic platform — connecting international technical expertise with local execution capability to enable efficient, structured participation in high-value projects.">
+          <span class="section-head__tag" data-en="Company overview" data-ar="من نحن">Qui sommes-nous</span>
+          <h2 data-en="Integrated solutions across engineering, energy, infrastructure & supply" data-ar="حلول متكاملة في الهندسة والطاقة والبنية التحتية والتوريد">Des solutions intégrées en ingénierie, énergie, infrastructures & approvisionnement</h2>
+          <p data-en="Melcor International Group is a Morocco-based company operating as a strategic platform — connecting international technical expertise with local execution capability to enable efficient, structured participation in high-value projects." data-ar="ميلكور إنترناشيونال غروب شركة مقرّها المغرب تعمل كمنصة استراتيجية تربط الخبرة التقنية الدولية بالقدرة على التنفيذ المحلي، لتمكين مشاركة فعّالة ومنظَّمة في المشاريع عالية القيمة.">
             Melcor International Group est une société basée au Maroc qui opère comme une plateforme
             stratégique, reliant l'expertise technique internationale à la capacité d'exécution locale
             pour une participation efficace et structurée aux projets à forte valeur ajoutée.
@@ -162,29 +168,29 @@
             <div class="pillar__icon">
               <svg viewBox="0 0 24 24"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/><circle cx="12" cy="12" r="3.5"/></svg>
             </div>
-            <h3 data-en="Engineering">Ingénierie</h3>
-            <p data-en="Technical coordination and alignment of partner capabilities with project requirements.">Coordination technique et alignement des capacités des partenaires sur les exigences des projets.</p>
+            <h3 data-en="Engineering" data-ar="الهندسة">Ingénierie</h3>
+            <p data-en="Technical coordination and alignment of partner capabilities with project requirements." data-ar="التنسيق التقني ومواءمة قدرات الشركاء مع متطلبات المشاريع.">Coordination technique et alignement des capacités des partenaires sur les exigences des projets.</p>
           </article>
           <article class="pillar reveal" style="--d:.15s">
             <div class="pillar__icon">
               <svg viewBox="0 0 24 24"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8Z"/></svg>
             </div>
-            <h3 data-en="Energy">Énergie</h3>
-            <p data-en="Solar, transformers, MV/LV motors, renewable energy and gas projects.">Solaire, transformateurs, moteurs MT/BT, énergies renouvelables et projets gaziers.</p>
+            <h3 data-en="Energy" data-ar="الطاقة">Énergie</h3>
+            <p data-en="Solar, transformers, MV/LV motors, renewable energy and gas projects." data-ar="الطاقة الشمسية والمحوّلات ومحرّكات الجهد المتوسط/المنخفض والطاقات المتجددة ومشاريع الغاز.">Solaire, transformateurs, moteurs MT/BT, énergies renouvelables et projets gaziers.</p>
           </article>
           <article class="pillar reveal" style="--d:.25s">
             <div class="pillar__icon">
               <svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h.01M9 13h.01M9 17h.01M15 9h.01M15 13h.01M15 17h.01"/></svg>
             </div>
-            <h3 data-en="Infrastructure">Infrastructures</h3>
-            <p data-en="Construction, substations, telecommunications, civil engineering and EPC projects.">Construction, sous-stations, télécommunications, génie civil et projets EPC.</p>
+            <h3 data-en="Infrastructure" data-ar="البنية التحتية">Infrastructures</h3>
+            <p data-en="Construction, substations, telecommunications, civil engineering and EPC projects." data-ar="البناء والمحطات الفرعية والاتصالات والهندسة المدنية ومشاريع الـ EPC.">Construction, sous-stations, télécommunications, génie civil et projets EPC.</p>
           </article>
           <article class="pillar reveal" style="--d:.35s">
             <div class="pillar__icon">
               <svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="m3.3 7 8.7 5 8.7-5M12 22V12"/></svg>
             </div>
-            <h3 data-en="Supply">Approvisionnement</h3>
-            <p data-en="Equipment sourcing, procurement and delivery coordination.">Sourcing d'équipements, achats et coordination des livraisons.</p>
+            <h3 data-en="Supply" data-ar="التوريد">Approvisionnement</h3>
+            <p data-en="Equipment sourcing, procurement and delivery coordination." data-ar="توريد المعدّات والمشتريات وتنسيق عمليات التسليم.">Sourcing d'équipements, achats et coordination des livraisons.</p>
           </article>
         </div>
       </div>
@@ -196,24 +202,24 @@
         <div class="about__media reveal">
           <div class="about__img"></div>
           <div class="about__badge">
-            <strong data-en="1–2 → 8–10">1–2 → 8–10</strong>
-            <span data-en="tenders won per year">appels d'offres gagnés par an</span>
+            <strong data-en="1–2 → 8–10" data-ar="1–2 ← 8–10">1–2 → 8–10</strong>
+            <span data-en="tenders won per year" data-ar="عطاءات مكسوبة سنوياً">appels d'offres gagnés par an</span>
           </div>
         </div>
         <div class="about__content reveal" style="--d:.15s">
-          <span class="section-head__tag" data-en="Our positioning">Notre positionnement</span>
-          <h2 data-en="We are not a conventional contractor">Nous ne sommes pas un entrepreneur classique</h2>
-          <p data-en="We position ourselves at the centre of each project — ensuring the right technical partners, commercial structure and compliance frameworks are aligned from the outset.">
+          <span class="section-head__tag" data-en="Our positioning" data-ar="موقعنا">Notre positionnement</span>
+          <h2 data-en="We are not a conventional contractor" data-ar="لسنا مقاولاً تقليدياً">Nous ne sommes pas un entrepreneur classique</h2>
+          <p data-en="We position ourselves at the centre of each project — ensuring the right technical partners, commercial structure and compliance frameworks are aligned from the outset." data-ar="نضع أنفسنا في قلب كل مشروع، مع ضمان مواءمة الشركاء التقنيين المناسبين والهيكل التجاري وأُطر الامتثال منذ البداية.">
             Nous nous positionnons au cœur de chaque projet, en veillant à ce que les bons partenaires
             techniques, la structure commerciale et les cadres de conformité soient alignés dès le départ.
           </p>
           <ul class="checklist">
-            <li data-en="Deal structurers">Structureurs de projets et de partenariats</li>
-            <li data-en="Market access facilitators">Facilitateurs d'accès au marché marocain</li>
-            <li data-en="Strategic execution partners">Partenaires d'exécution stratégiques</li>
-            <li data-en="Continuity from bid strategy to award and execution">Continuité de la stratégie d'offre jusqu'à l'attribution et l'exécution</li>
+            <li data-en="Deal structurers" data-ar="هيكلة المشاريع والشراكات">Structureurs de projets et de partenariats</li>
+            <li data-en="Market access facilitators" data-ar="تيسير الوصول إلى السوق المغربي">Facilitateurs d'accès au marché marocain</li>
+            <li data-en="Strategic execution partners" data-ar="شركاء تنفيذ استراتيجيون">Partenaires d'exécution stratégiques</li>
+            <li data-en="Continuity from bid strategy to award and execution" data-ar="الاستمرارية من استراتيجية العطاء حتى الإسناد والتنفيذ">Continuité de la stratégie d'offre jusqu'à l'attribution et l'exécution</li>
           </ul>
-          <a href="#contact" class="btn btn--primary" data-en="Partner with us">Devenir partenaire</a>
+          <a href="#contact" class="btn btn--primary" data-en="Partner with us" data-ar="كن شريكاً">Devenir partenaire</a>
         </div>
       </div>
     </section>
@@ -223,9 +229,9 @@
       <div class="mission__bg" aria-hidden="true"></div>
       <div class="container">
         <div class="mission__lead reveal">
-          <span class="section-head__tag" data-en="Our model">Notre modèle</span>
-          <h2 data-en="Identify, structure, deliver">Identifier, structurer, exécuter</h2>
-          <p data-en="Our model is built to identify and unlock opportunities, structure high-performing partnerships, and deliver projects through aligned execution — with compliance and performance at the core.">
+          <span class="section-head__tag" data-en="Our model" data-ar="نموذجنا">Notre modèle</span>
+          <h2 data-en="Identify, structure, deliver" data-ar="نحدّد، نهيكل، ننفّذ">Identifier, structurer, exécuter</h2>
+          <p data-en="Our model is built to identify and unlock opportunities, structure high-performing partnerships, and deliver projects through aligned execution — with compliance and performance at the core." data-ar="صُمِّم نموذجنا لتحديد الفرص وإطلاقها، وهيكلة شراكات عالية الأداء، وتسليم المشاريع عبر تنفيذ متوائم، مع وضع الامتثال والأداء في صميم كل شيء.">
             Notre modèle est conçu pour identifier et débloquer les opportunités, structurer des partenariats
             performants et livrer les projets grâce à une exécution alignée, avec la conformité et la
             performance au cœur de tout.
@@ -235,23 +241,23 @@
         <div class="values__grid">
           <article class="value reveal" style="--d:.05s">
             <span class="value__ic"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></span>
-            <h3 data-en="Identify opportunities">Identifier les opportunités</h3>
-            <p data-en="We detect and unlock high-value tenders in infrastructure and energy.">Nous détectons et débloquons les appels d'offres à forte valeur dans l'infrastructure et l'énergie.</p>
+            <h3 data-en="Identify opportunities" data-ar="تحديد الفرص">Identifier les opportunités</h3>
+            <p data-en="We detect and unlock high-value tenders in infrastructure and energy." data-ar="نرصد العطاءات عالية القيمة في البنية التحتية والطاقة ونطلقها.">Nous détectons et débloquons les appels d'offres à forte valeur dans l'infrastructure et l'énergie.</p>
           </article>
           <article class="value reveal" style="--d:.13s">
             <span class="value__ic"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m7 14 4-4 3 3 5-6"/></svg></span>
-            <h3 data-en="Structure partnerships">Structurer les partenariats</h3>
-            <p data-en="We assemble high-performing, compliant and competitive bid structures.">Nous assemblons des montages d'offres performants, conformes et compétitifs.</p>
+            <h3 data-en="Structure partnerships" data-ar="هيكلة الشراكات">Structurer les partenariats</h3>
+            <p data-en="We assemble high-performing, compliant and competitive bid structures." data-ar="نبني عروضاً عالية الأداء ومتوافقة وتنافسية.">Nous assemblons des montages d'offres performants, conformes et compétitifs.</p>
           </article>
           <article class="value reveal" style="--d:.21s">
             <span class="value__ic"><svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>
-            <h3 data-en="Deliver with alignment">Exécuter avec rigueur</h3>
-            <p data-en="We coordinate delivery so it stays compliant and aligned with the bid commitments.">Nous coordonnons la livraison pour qu'elle reste conforme et alignée sur les engagements de l'offre.</p>
+            <h3 data-en="Deliver with alignment" data-ar="التنفيذ بدقة">Exécuter avec rigueur</h3>
+            <p data-en="We coordinate delivery so it stays compliant and aligned with the bid commitments." data-ar="ننسّق التسليم ليبقى متوافقاً ومتماشياً مع التزامات العطاء.">Nous coordonnons la livraison pour qu'elle reste conforme et alignée sur les engagements de l'offre.</p>
           </article>
           <article class="value reveal" style="--d:.29s">
             <span class="value__ic"><svg viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.5 8.5 8 11 4.5-2.5 8-6 8-11V5l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
-            <h3 data-en="Compliance & transparency">Conformité & transparence</h3>
-            <p data-en="Rigorous compliance management and clear, honest reporting at every step.">Gestion rigoureuse de la conformité et reporting clair et honnête à chaque étape.</p>
+            <h3 data-en="Compliance & transparency" data-ar="الامتثال والشفافية">Conformité & transparence</h3>
+            <p data-en="Rigorous compliance management and clear, honest reporting at every step." data-ar="إدارة صارمة للامتثال وتقارير واضحة وصادقة في كل مرحلة.">Gestion rigoureuse de la conformité et reporting clair et honnête à chaque étape.</p>
           </article>
         </div>
       </div>
@@ -261,9 +267,9 @@
     <section class="services" id="services">
       <div class="container">
         <div class="section-head reveal">
-          <span class="section-head__tag" data-en="Our services">Nos services</span>
-          <h2 data-en="From tender to execution, end to end">De l'appel d'offres à l'exécution, de bout en bout</h2>
-          <p data-en="Full lifecycle bid management, technical structuring, supply coordination and market access.">Gestion complète des appels d'offres, structuration technique, coordination d'approvisionnement et accès au marché.</p>
+          <span class="section-head__tag" data-en="Our services" data-ar="خدماتنا">Nos services</span>
+          <h2 data-en="From tender to execution, end to end" data-ar="من العطاء إلى التنفيذ، من البداية إلى النهاية">De l'appel d'offres à l'exécution, de bout en bout</h2>
+          <p data-en="Full lifecycle bid management, technical structuring, supply coordination and market access." data-ar="إدارة كاملة للعطاءات، وهيكلة تقنية وتجارية، وتنسيق التوريد، والوصول إلى السوق.">Gestion complète des appels d'offres, structuration technique, coordination d'approvisionnement et accès au marché.</p>
         </div>
 
         <div class="services__grid">
@@ -271,8 +277,8 @@
             <div class="service__icon">
               <svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
             </div>
-            <h3 data-en="Bid & tender management">Gestion des appels d'offres</h3>
-            <p data-en="Full lifecycle management: opportunity identification, bid compilation, compliance, positioning and submission.">Gestion du cycle complet : identification des opportunités, montage de l'offre, conformité, positionnement et soumission.</p>
+            <h3 data-en="Bid & tender management" data-ar="إدارة العطاءات">Gestion des appels d'offres</h3>
+            <p data-en="Full lifecycle management: opportunity identification, bid compilation, compliance, positioning and submission." data-ar="إدارة الدورة الكاملة: تحديد الفرص، وإعداد العرض، والامتثال، والتموضع، والتقديم.">Gestion du cycle complet : identification des opportunités, montage de l'offre, conformité, positionnement et soumission.</p>
             <span class="service__no">01</span>
           </article>
 
@@ -280,8 +286,8 @@
             <div class="service__icon">
               <svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
             </div>
-            <h3 data-en="Technical & commercial structuring">Structuration technique & commerciale</h3>
-            <p data-en="Selection and integration of technical partners, aligning capabilities with tender requirements.">Sélection et intégration des partenaires techniques, alignement des capacités sur les exigences des appels d'offres.</p>
+            <h3 data-en="Technical & commercial structuring" data-ar="الهيكلة التقنية والتجارية">Structuration technique & commerciale</h3>
+            <p data-en="Selection and integration of technical partners, aligning capabilities with tender requirements." data-ar="اختيار الشركاء التقنيين ودمجهم، ومواءمة القدرات مع متطلبات العطاءات.">Sélection et intégration des partenaires techniques, alignement des capacités sur les exigences des appels d'offres.</p>
             <span class="service__no">02</span>
           </article>
 
@@ -289,8 +295,8 @@
             <div class="service__icon">
               <svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="m3.3 7 8.7 5 8.7-5M12 22V12"/></svg>
             </div>
-            <h3 data-en="Supply & project coordination">Approvisionnement & coordination projet</h3>
-            <p data-en="Equipment sourcing and procurement, engineering coordination and delivery alignment.">Sourcing et achat d'équipements, coordination de l'ingénierie et alignement de la livraison.</p>
+            <h3 data-en="Supply & project coordination" data-ar="التوريد وتنسيق المشاريع">Approvisionnement & coordination projet</h3>
+            <p data-en="Equipment sourcing and procurement, engineering coordination and delivery alignment." data-ar="توريد المعدّات وشراؤها، وتنسيق الأعمال الهندسية ومواءمة التسليم.">Sourcing et achat d'équipements, coordination de l'ingénierie et alignement de la livraison.</p>
             <span class="service__no">03</span>
           </article>
 
@@ -298,8 +304,8 @@
             <div class="service__icon">
               <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
             </div>
-            <h3 data-en="Local representation & market access">Représentation locale & accès marché</h3>
-            <p data-en="Moroccan compliance and administrative processes, stakeholder engagement and local partner structuring.">Processus de conformité et démarches administratives marocaines, relations avec les parties prenantes et structuration des partenaires locaux.</p>
+            <h3 data-en="Local representation & market access" data-ar="التمثيل المحلي والوصول إلى السوق">Représentation locale & accès marché</h3>
+            <p data-en="Moroccan compliance and administrative processes, stakeholder engagement and local partner structuring." data-ar="إجراءات الامتثال والمعاملات الإدارية المغربية، والتواصل مع الأطراف المعنية وهيكلة الشركاء المحليين.">Processus de conformité et démarches administratives marocaines, relations avec les parties prenantes et structuration des partenaires locaux.</p>
             <span class="service__no">04</span>
           </article>
 
@@ -307,8 +313,8 @@
             <div class="service__icon">
               <svg viewBox="0 0 24 24"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
             </div>
-            <h3 data-en="Investment structuring & financing">Structuration d'investissement & financement</h3>
-            <p data-en="Investment structuring, project financing, PPPs, EPC frameworks and international joint ventures.">Structuration d'investissement, financement de projets, PPP, cadres EPC et coentreprises internationales.</p>
+            <h3 data-en="Investment structuring & financing" data-ar="هيكلة الاستثمار والتمويل">Structuration d'investissement & financement</h3>
+            <p data-en="Investment structuring, project financing, PPPs, EPC frameworks and international joint ventures." data-ar="هيكلة الاستثمار وتمويل المشاريع والشراكات بين القطاعين العام والخاص وأطر الـ EPC والمشاريع المشتركة الدولية.">Structuration d'investissement, financement de projets, PPP, cadres EPC et coentreprises internationales.</p>
             <span class="service__no">05</span>
           </article>
 
@@ -316,8 +322,8 @@
             <div class="service__icon">
               <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg>
             </div>
-            <h3 data-en="Business development & intermediation">Développement & intermédiation commerciale</h3>
-            <p data-en="Market entry support, investment promotion and cross-border commercial relations across African, Middle Eastern and European markets.">Accompagnement à l'entrée sur le marché, promotion des investissements et relations commerciales transfrontalières entre les marchés africain, moyen-oriental et européen.</p>
+            <h3 data-en="Business development & intermediation" data-ar="التطوير والوساطة التجارية">Développement & intermédiation commerciale</h3>
+            <p data-en="Market entry support, investment promotion and cross-border commercial relations across African, Middle Eastern and European markets." data-ar="دعم دخول السوق وترويج الاستثمار والعلاقات التجارية العابرة للحدود بين الأسواق الأفريقية والشرق أوسطية والأوروبية.">Accompagnement à l'entrée sur le marché, promotion des investissements et relations commerciales transfrontalières entre les marchés africain, moyen-oriental et européen.</p>
             <span class="service__no">06</span>
           </article>
         </div>
@@ -329,9 +335,9 @@
       <div class="stats__bg" aria-hidden="true"></div>
       <div class="container">
         <div class="section-head section-head--light reveal">
-          <span class="section-head__tag" data-en="Experience & track record">Expérience & résultats</span>
-          <h2 data-en="A proven bid & tender track record">Un track record éprouvé en appels d'offres</h2>
-          <p data-en="Direct experience securing multi-million rand contracts across engineering and infrastructure sectors, with a win rate that grew year after year." style="color:rgba(255,255,255,.72)">
+          <span class="section-head__tag" data-en="Experience & track record" data-ar="الخبرة والإنجازات">Expérience & résultats</span>
+          <h2 data-en="A proven bid & tender track record" data-ar="سجل حافل ومُثبت في العطاءات">Un track record éprouvé en appels d'offres</h2>
+          <p data-en="Direct experience securing multi-million rand contracts across engineering and infrastructure sectors, with a win rate that grew year after year." data-ar="خبرة مباشرة في الفوز بعقود بملايين الراندات في قطاعَي الهندسة والبنية التحتية، مع معدل نجاح في تصاعد عاماً بعد عام." style="color:rgba(255,255,255,.72)">
             Une expérience directe dans la sécurisation de contrats de plusieurs millions de rands
             dans les secteurs de l'ingénierie et de l'infrastructure, avec un taux de réussite en
             forte progression année après année.
@@ -339,25 +345,25 @@
         </div>
 
         <div class="stats__grid">
-          <div class="stat reveal" style="--d:.05s"><span class="stat__num">8–10</span><p data-en="tenders won per year (up from 1–2)">appels d'offres gagnés / an (contre 1–2)</p></div>
-          <div class="stat reveal" style="--d:.15s"><span class="stat__num" data-target="5" data-suffix="×">0</span><p data-en="increase in win rate">de hausse du taux de réussite</p></div>
-          <div class="stat reveal" style="--d:.25s"><span class="stat__num" data-target="100" data-suffix="%">0</span><p data-en="full bid lifecycle managed">du cycle d'appel d'offres géré</p></div>
-          <div class="stat reveal" style="--d:.35s"><span class="stat__num">M+</span><p data-en="multi-million rand contracts secured">en contrats de plusieurs M de rands</p></div>
+          <div class="stat reveal" style="--d:.05s"><span class="stat__num">8–10</span><p data-en="tenders won per year (up from 1–2)" data-ar="عطاءات مكسوبة سنوياً (مقابل 1–2)">appels d'offres gagnés / an (contre 1–2)</p></div>
+          <div class="stat reveal" style="--d:.15s"><span class="stat__num" data-target="5" data-suffix="×">0</span><p data-en="increase in win rate" data-ar="زيادة في معدل النجاح">de hausse du taux de réussite</p></div>
+          <div class="stat reveal" style="--d:.25s"><span class="stat__num" data-target="100" data-suffix="%">0</span><p data-en="full bid lifecycle managed" data-ar="من دورة العطاء تُدار بالكامل">du cycle d'appel d'offres géré</p></div>
+          <div class="stat reveal" style="--d:.35s"><span class="stat__num">M+</span><p data-en="multi-million rand contracts secured" data-ar="عقود بملايين الراندات">en contrats de plusieurs M de rands</p></div>
         </div>
 
         <div class="chips reveal" style="--d:.2s">
-          <span class="chip" data-en="Construction & Infrastructure">Construction & Infrastructures</span>
-          <span class="chip" data-en="Solar PV plants">Centrales solaires PV</span>
-          <span class="chip" data-en="Telecommunications">Télécommunications</span>
-          <span class="chip" data-en="Substations & electrical">Sous-stations & électrique</span>
-          <span class="chip" data-en="EPC contracts">Contrats EPC</span>
-          <span class="chip" data-en="Flue Gas Desulphurisation (FGD)">Désulfuration des fumées (FGD)</span>
-          <span class="chip" data-en="LV / MV / HV motors">Moteurs BT / MT / HT</span>
-          <span class="chip" data-en="Renewable energy">Énergies renouvelables</span>
-          <span class="chip" data-en="Gas">Gaz</span>
-          <span class="chip" data-en="Transformers">Transformateurs</span>
-          <span class="chip" data-en="Mining">Mines</span>
-          <span class="chip" data-en="Security">Sécurité</span>
+          <span class="chip" data-en="Construction & Infrastructure" data-ar="البناء والبنية التحتية">Construction & Infrastructures</span>
+          <span class="chip" data-en="Solar PV plants" data-ar="محطات الطاقة الشمسية">Centrales solaires PV</span>
+          <span class="chip" data-en="Telecommunications" data-ar="الاتصالات">Télécommunications</span>
+          <span class="chip" data-en="Substations & electrical" data-ar="المحطات الفرعية والكهرباء">Sous-stations & électrique</span>
+          <span class="chip" data-en="EPC contracts" data-ar="عقود EPC">Contrats EPC</span>
+          <span class="chip" data-en="Flue Gas Desulphurisation (FGD)" data-ar="إزالة الكبريت من الغازات (FGD)">Désulfuration des fumées (FGD)</span>
+          <span class="chip" data-en="LV / MV / HV motors" data-ar="محرّكات الجهد المنخفض/المتوسط/العالي">Moteurs BT / MT / HT</span>
+          <span class="chip" data-en="Renewable energy" data-ar="الطاقات المتجددة">Énergies renouvelables</span>
+          <span class="chip" data-en="Gas" data-ar="الغاز">Gaz</span>
+          <span class="chip" data-en="Transformers" data-ar="المحوّلات">Transformateurs</span>
+          <span class="chip" data-en="Mining" data-ar="التعدين">Mines</span>
+          <span class="chip" data-en="Security" data-ar="الأمن">Sécurité</span>
         </div>
       </div>
     </section>
@@ -366,31 +372,31 @@
     <section class="method" id="method">
       <div class="container">
         <div class="section-head reveal">
-          <span class="section-head__tag" data-en="Our process">Notre processus</span>
-          <h2 data-en="From bid strategy to award and execution">De la stratégie d'offre à l'attribution et l'exécution</h2>
-          <p data-en="An active role at every stage — ensuring continuity from bid strategy through award to delivery.">Un rôle actif à chaque étape, garantissant la continuité de la stratégie d'offre jusqu'à l'attribution et la livraison.</p>
+          <span class="section-head__tag" data-en="Our process" data-ar="منهجيتنا">Notre processus</span>
+          <h2 data-en="From bid strategy to award and execution" data-ar="من استراتيجية العطاء إلى الإسناد والتنفيذ">De la stratégie d'offre à l'attribution et l'exécution</h2>
+          <p data-en="An active role at every stage — ensuring continuity from bid strategy through award to delivery." data-ar="دور فعّال في كل مرحلة، يضمن الاستمرارية من استراتيجية العطاء حتى الإسناد والتسليم.">Un rôle actif à chaque étape, garantissant la continuité de la stratégie d'offre jusqu'à l'attribution et la livraison.</p>
         </div>
 
         <div class="method__grid">
           <article class="step reveal" style="--d:.05s">
             <span class="step__no">01</span>
-            <h3 data-en="Identify">Identifier</h3>
-            <p data-en="We identify high-value opportunities and assess technical and commercial requirements.">Nous identifions les opportunités à forte valeur et évaluons les exigences techniques et commerciales.</p>
+            <h3 data-en="Identify" data-ar="التحديد">Identifier</h3>
+            <p data-en="We identify high-value opportunities and assess technical and commercial requirements." data-ar="نحدّد الفرص عالية القيمة ونقيّم المتطلبات التقنية والتجارية.">Nous identifions les opportunités à forte valeur et évaluons les exigences techniques et commerciales.</p>
           </article>
           <article class="step reveal" style="--d:.15s">
             <span class="step__no">02</span>
-            <h3 data-en="Structure">Structurer</h3>
-            <p data-en="We build the technical and commercial framework and align the right partners.">Nous construisons le cadre technique et commercial et alignons les bons partenaires.</p>
+            <h3 data-en="Structure" data-ar="الهيكلة">Structurer</h3>
+            <p data-en="We build the technical and commercial framework and align the right partners." data-ar="نبني الإطار التقني والتجاري ونوائم الشركاء المناسبين.">Nous construisons le cadre technique et commercial et alignons les bons partenaires.</p>
           </article>
           <article class="step reveal" style="--d:.25s">
             <span class="step__no">03</span>
-            <h3 data-en="Position">Positionner</h3>
-            <p data-en="We position the consortium as a top-tier, compliant and competitive candidate for award.">Nous positionnons le consortium comme un candidat de premier plan, conforme et compétitif, pour l'attribution.</p>
+            <h3 data-en="Position" data-ar="التموضع">Positionner</h3>
+            <p data-en="We position the consortium as a top-tier, compliant and competitive candidate for award." data-ar="نضع التحالف كمرشّح من الطراز الأول، متوافق وتنافسي، للإسناد.">Nous positionnons le consortium comme un candidat de premier plan, conforme et compétitif, pour l'attribution.</p>
           </article>
           <article class="step reveal" style="--d:.35s">
             <span class="step__no">04</span>
-            <h3 data-en="Execute">Exécuter</h3>
-            <p data-en="After award, we manage coordination so delivery matches the bid commitments.">Après l'attribution, nous pilotons la coordination pour que la livraison respecte les engagements de l'offre.</p>
+            <h3 data-en="Execute" data-ar="التنفيذ">Exécuter</h3>
+            <p data-en="After award, we manage coordination so delivery matches the bid commitments." data-ar="بعد الإسناد، نقود التنسيق ليطابق التسليمُ التزاماتِ العطاء.">Après l'attribution, nous pilotons la coordination pour que la livraison respecte les engagements de l'offre.</p>
           </article>
         </div>
       </div>
@@ -400,31 +406,31 @@
     <section class="faq" id="faq">
       <div class="container faq__inner">
         <div class="section-head reveal">
-          <span class="section-head__tag" data-en="FAQ">FAQ</span>
-          <h2 data-en="Frequently asked questions">Questions fréquentes</h2>
-          <p data-en="Have more questions? Write to us, we reply within 24 hours.">Vous avez d'autres questions ? Écrivez-nous, nous vous répondons sous 24 heures.</p>
+          <span class="section-head__tag" data-en="FAQ" data-ar="الأسئلة الشائعة">FAQ</span>
+          <h2 data-en="Frequently asked questions" data-ar="الأسئلة الشائعة">Questions fréquentes</h2>
+          <p data-en="Have more questions? Write to us, we reply within 24 hours." data-ar="لديك أسئلة أخرى؟ راسلنا، ونردّ عليك خلال 24 ساعة.">Vous avez d'autres questions ? Écrivez-nous, nous vous répondons sous 24 heures.</p>
         </div>
 
         <div class="faq__list">
           <details class="faq__item reveal" style="--d:.05s">
-            <summary data-en="What exactly does Melcor do?">Que fait exactement Melcor ?</summary>
-            <div class="faq__ans"><p data-en="We are a strategic platform that structures, positions and manages high-value participation in infrastructure and energy tenders in Morocco — from opportunity identification to execution.">Nous sommes une plateforme stratégique qui structure, positionne et gère la participation à forte valeur ajoutée aux appels d'offres d'infrastructure et d'énergie au Maroc, de l'identification de l'opportunité à l'exécution.</p></div>
+            <summary data-en="What exactly does Melcor do?" data-ar="ماذا تفعل ميلكور بالضبط؟">Que fait exactement Melcor ?</summary>
+            <div class="faq__ans"><p data-en="We are a strategic platform that structures, positions and manages high-value participation in infrastructure and energy tenders in Morocco — from opportunity identification to execution." data-ar="نحن منصة استراتيجية تقوم بهيكلة وتموضع وإدارة المشاركة عالية القيمة في عطاءات البنية التحتية والطاقة في المغرب، من تحديد الفرصة إلى التنفيذ.">Nous sommes une plateforme stratégique qui structure, positionne et gère la participation à forte valeur ajoutée aux appels d'offres d'infrastructure et d'énergie au Maroc, de l'identification de l'opportunité à l'exécution.</p></div>
           </details>
           <details class="faq__item reveal" style="--d:.1s">
-            <summary data-en="Are you a contractor?">Êtes-vous un entrepreneur / contractant ?</summary>
-            <div class="faq__ans"><p data-en="No. We are not a conventional contractor. We act as deal structurers, market access facilitators and strategic execution partners, working alongside leading technical firms.">Non. Nous ne sommes pas un entrepreneur classique. Nous agissons comme structureurs de projets, facilitateurs d'accès au marché et partenaires d'exécution stratégiques, aux côtés de firmes techniques de premier plan.</p></div>
+            <summary data-en="Are you a contractor?" data-ar="هل أنتم مقاول؟">Êtes-vous un entrepreneur / contractant ?</summary>
+            <div class="faq__ans"><p data-en="No. We are not a conventional contractor. We act as deal structurers, market access facilitators and strategic execution partners, working alongside leading technical firms." data-ar="لا. لسنا مقاولاً تقليدياً. نعمل كمهيكلين للمشاريع وميسّرين للوصول إلى السوق وشركاء تنفيذ استراتيجيين، إلى جانب شركات تقنية رائدة.">Non. Nous ne sommes pas un entrepreneur classique. Nous agissons comme structureurs de projets, facilitateurs d'accès au marché et partenaires d'exécution stratégiques, aux côtés de firmes techniques de premier plan.</p></div>
           </details>
           <details class="faq__item reveal" style="--d:.15s">
-            <summary data-en="Which sectors do you cover?">Dans quels secteurs intervenez-vous ?</summary>
-            <div class="faq__ans"><p data-en="Construction and infrastructure, solar PV, telecommunications, substations, EPC contracts, renewable energy, gas, transformers, LV/MV/HV motors, mining and security.">Construction et infrastructures, solaire PV, télécommunications, sous-stations, contrats EPC, énergies renouvelables, gaz, transformateurs, moteurs BT/MT/HT, mines et sécurité.</p></div>
+            <summary data-en="Which sectors do you cover?" data-ar="في أي قطاعات تعملون؟">Dans quels secteurs intervenez-vous ?</summary>
+            <div class="faq__ans"><p data-en="Construction and infrastructure, solar PV, telecommunications, substations, EPC contracts, renewable energy, gas, transformers, LV/MV/HV motors, mining and security." data-ar="البناء والبنية التحتية، والطاقة الشمسية، والاتصالات، والمحطات الفرعية، وعقود EPC، والطاقات المتجددة، والغاز، والمحوّلات، والمحرّكات، والتعدين، والأمن.">Construction et infrastructures, solaire PV, télécommunications, sous-stations, contrats EPC, énergies renouvelables, gaz, transformateurs, moteurs BT/MT/HT, mines et sécurité.</p></div>
           </details>
           <details class="faq__item reveal" style="--d:.2s">
-            <summary data-en="How is a partnership structured?">Comment se structure un partenariat ?</summary>
-            <div class="faq__ans"><p data-en="We collaborate with established technical partners to form competitive bid structures, with clear role allocation, strong technical and commercial alignment, and coordinated execution.">Nous collaborons avec des partenaires techniques établis pour former des montages d'offres compétitifs, avec une répartition claire des rôles, un fort alignement technique et commercial et une exécution coordonnée.</p></div>
+            <summary data-en="How is a partnership structured?" data-ar="كيف تُهيكَل الشراكة؟">Comment se structure un partenariat ?</summary>
+            <div class="faq__ans"><p data-en="We collaborate with established technical partners to form competitive bid structures, with clear role allocation, strong technical and commercial alignment, and coordinated execution." data-ar="نتعاون مع شركاء تقنيين راسخين لتكوين عروض تنافسية، مع توزيع واضح للأدوار ومواءمة تقنية وتجارية قوية وتنفيذ منسّق.">Nous collaborons avec des partenaires techniques établis pour former des montages d'offres compétitifs, avec une répartition claire des rôles, un fort alignement technique et commercial et une exécution coordonnée.</p></div>
           </details>
           <details class="faq__item reveal" style="--d:.25s">
-            <summary data-en="Do you work internationally?">Intervenez-vous à l'international ?</summary>
-            <div class="faq__ans"><p data-en="Based in Morocco, we connect international technical expertise with local execution, and facilitate cross-border commercial relations across African, Middle Eastern and European markets.">Basés au Maroc, nous relions l'expertise technique internationale à l'exécution locale et facilitons les relations commerciales transfrontalières entre les marchés africain, moyen-oriental et européen.</p></div>
+            <summary data-en="Do you work internationally?" data-ar="هل تعملون دولياً؟">Intervenez-vous à l'international ?</summary>
+            <div class="faq__ans"><p data-en="Based in Morocco, we connect international technical expertise with local execution, and facilitate cross-border commercial relations across African, Middle Eastern and European markets." data-ar="مقرّنا في المغرب، ونربط الخبرة التقنية الدولية بالتنفيذ المحلي، ونيسّر العلاقات التجارية العابرة للحدود بين الأسواق الأفريقية والشرق أوسطية والأوروبية.">Basés au Maroc, nous relions l'expertise technique internationale à l'exécution locale et facilitons les relations commerciales transfrontalières entre les marchés africain, moyen-oriental et européen.</p></div>
           </details>
         </div>
       </div>
@@ -433,9 +439,9 @@
     <!-- ===================== CTA BAND ===================== -->
     <section class="cta-band">
       <div class="container cta-band__inner reveal">
-        <h2 data-en="An opportunity or a tender in mind?">Une opportunité ou un appel d'offres en vue&nbsp;?</h2>
-        <p data-en="Let's structure a compliant, competitive and execution-ready bid together.">Structurons ensemble une offre conforme, compétitive et prête pour l'exécution.</p>
-        <a href="#contact" class="btn btn--white btn--lg" data-en="Talk to us">Échanger avec nous</a>
+        <h2 data-en="An opportunity or a tender in mind?" data-ar="هل لديك فرصة أو عطاء في الأفق؟">Une opportunité ou un appel d'offres en vue&nbsp;?</h2>
+        <p data-en="Let's structure a compliant, competitive and execution-ready bid together." data-ar="لنبنِ معاً عرضاً متوافقاً وتنافسياً وجاهزاً للتنفيذ.">Structurons ensemble une offre conforme, compétitive et prête pour l'exécution.</p>
+        <a href="#contact" class="btn btn--white btn--lg" data-en="Talk to us" data-ar="تواصل معنا">Échanger avec nous</a>
       </div>
     </section>
 
@@ -443,22 +449,22 @@
     <section class="contact" id="contact">
       <div class="container contact__grid">
         <div class="contact__info reveal">
-          <span class="section-head__tag" data-en="Contact">Contact</span>
-          <h2 data-en="Let's talk about your project">Parlons de votre projet</h2>
-          <p data-en="Our team replies within 24 hours. Write to us or call us directly.">Notre équipe vous répond sous 24 heures. Écrivez-nous ou appelez-nous directement.</p>
+          <span class="section-head__tag" data-en="Contact" data-ar="اتصل بنا">Contact</span>
+          <h2 data-en="Let's talk about your project" data-ar="لنتحدث عن مشروعك">Parlons de votre projet</h2>
+          <p data-en="Our team replies within 24 hours. Write to us or call us directly." data-ar="يردّ فريقنا خلال 24 ساعة. راسلنا أو اتصل بنا مباشرة.">Notre équipe vous répond sous 24 heures. Écrivez-nous ou appelez-nous directement.</p>
 
           <ul class="contact__list">
             <li>
               <span class="contact__ic"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8.1 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2z"/></svg></span>
-              <div><strong data-en="Phone">Téléphone</strong><a href="tel:+212000000000">+212 X XX XX XX XX</a></div>
+              <div><strong data-en="Phone" data-ar="الهاتف">Téléphone</strong><a href="tel:+212000000000" dir="ltr">+212 X XX XX XX XX</a></div>
             </li>
             <li>
               <span class="contact__ic"><svg viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="m22 6-10 7L2 6"/></svg></span>
-              <div><strong data-en="Email">Email</strong><a href="mailto:info@melcorinternational.com">info@melcorinternational.com</a></div>
+              <div><strong data-en="Email" data-ar="البريد الإلكتروني">Email</strong><a href="mailto:info@melcorinternational.com" dir="ltr">info@melcorinternational.com</a></div>
             </li>
             <li>
               <span class="contact__ic"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
-              <div><strong data-en="Address">Adresse</strong><span data-en="10 Rue de la Liberté, 3rd floor, Apt 5 — Casablanca, Morocco">10 Rue de la Liberté, 3e étage, Apt 5 — Casablanca, Maroc</span></div>
+              <div><strong data-en="Address" data-ar="العنوان">Adresse</strong><span data-en="10 Rue de la Liberté, 3rd floor, Apt 5 — Casablanca, Morocco" data-ar="10 شارع الحرية، الطابق الثالث، شقة 5 — الدار البيضاء، المغرب">10 Rue de la Liberté, 3e étage, Apt 5 — Casablanca, Maroc</span></div>
             </li>
           </ul>
         </div>
@@ -466,21 +472,21 @@
         <form class="contact__form reveal" style="--d:.15s" id="contactForm" novalidate>
           <div class="field">
             <input type="text" name="name" id="f-name" required placeholder=" " />
-            <label for="f-name" data-en="Full name">Nom complet</label>
+            <label for="f-name" data-en="Full name" data-ar="الاسم الكامل">Nom complet</label>
           </div>
           <div class="field">
             <input type="email" name="email" id="f-email" required placeholder=" " />
-            <label for="f-email" data-en="Email address">Adresse email</label>
+            <label for="f-email" data-en="Email address" data-ar="البريد الإلكتروني">Adresse email</label>
           </div>
           <div class="field">
             <input type="text" name="company" id="f-company" placeholder=" " />
-            <label for="f-company" data-en="Company (optional)">Entreprise (optionnel)</label>
+            <label for="f-company" data-en="Company (optional)" data-ar="الشركة (اختياري)">Entreprise (optionnel)</label>
           </div>
           <div class="field">
             <textarea name="message" id="f-message" rows="4" required placeholder=" "></textarea>
-            <label for="f-message" data-en="Your message">Votre message</label>
+            <label for="f-message" data-en="Your message" data-ar="رسالتك">Votre message</label>
           </div>
-          <button type="submit" class="btn btn--primary btn--lg btn--block" data-en="Send message">Envoyer le message</button>
+          <button type="submit" class="btn btn--primary btn--lg btn--block" data-en="Send message" data-ar="إرسال الرسالة">Envoyer le message</button>
           <p class="form__note" id="formNote" role="status"></p>
         </form>
       </div>
@@ -505,7 +511,7 @@
             <span class="brand__sub">INTERNATIONAL GROUP</span>
           </span>
         </a>
-        <p data-en="A Morocco-based strategic platform connecting international technical expertise with local execution across engineering, energy, infrastructure and supply.">Une plateforme stratégique basée au Maroc, reliant l'expertise technique internationale à l'exécution locale dans l'ingénierie, l'énergie, les infrastructures et l'approvisionnement.</p>
+        <p data-en="A Morocco-based strategic platform connecting international technical expertise with local execution across engineering, energy, infrastructure and supply." data-ar="منصة استراتيجية مقرّها المغرب تربط الخبرة التقنية الدولية بالتنفيذ المحلي في الهندسة والطاقة والبنية التحتية والتوريد.">Une plateforme stratégique basée au Maroc, reliant l'expertise technique internationale à l'exécution locale dans l'ingénierie, l'énergie, les infrastructures et l'approvisionnement.</p>
         <div class="socials">
           <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg></a>
           <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
@@ -514,38 +520,38 @@
       </div>
 
       <div class="footer__col">
-        <h4 data-en="Quick links">Liens rapides</h4>
-        <a href="#hero" data-en="Home">Accueil</a>
-        <a href="#about" data-en="About">À propos</a>
-        <a href="#services" data-en="Services">Services</a>
-        <a href="#experience" data-en="Experience">Expérience</a>
-        <a href="#method" data-en="Process">Processus</a>
-        <a href="#contact" data-en="Contact">Contact</a>
+        <h4 data-en="Quick links" data-ar="روابط سريعة">Liens rapides</h4>
+        <a href="#hero" data-en="Home" data-ar="الرئيسية">Accueil</a>
+        <a href="#about" data-en="About" data-ar="من نحن">À propos</a>
+        <a href="#services" data-en="Services" data-ar="خدماتنا">Services</a>
+        <a href="#experience" data-en="Experience" data-ar="خبرتنا">Expérience</a>
+        <a href="#method" data-en="Process" data-ar="منهجيتنا">Processus</a>
+        <a href="#contact" data-en="Contact" data-ar="اتصل بنا">Contact</a>
       </div>
 
       <div class="footer__col">
-        <h4 data-en="Our services">Nos services</h4>
-        <a href="#services" data-en="Bid & tender management">Gestion des appels d'offres</a>
-        <a href="#services" data-en="Technical & commercial structuring">Structuration technique & commerciale</a>
-        <a href="#services" data-en="Supply & project coordination">Approvisionnement & coordination</a>
-        <a href="#services" data-en="Local representation & market access">Représentation & accès marché</a>
-        <a href="#services" data-en="Investment structuring & financing">Investissement & financement</a>
+        <h4 data-en="Our services" data-ar="خدماتنا">Nos services</h4>
+        <a href="#services" data-en="Bid & tender management" data-ar="إدارة العطاءات">Gestion des appels d'offres</a>
+        <a href="#services" data-en="Technical & commercial structuring" data-ar="الهيكلة التقنية والتجارية">Structuration technique & commerciale</a>
+        <a href="#services" data-en="Supply & project coordination" data-ar="التوريد والتنسيق">Approvisionnement & coordination</a>
+        <a href="#services" data-en="Local representation & market access" data-ar="التمثيل والوصول إلى السوق">Représentation & accès marché</a>
+        <a href="#services" data-en="Investment structuring & financing" data-ar="الاستثمار والتمويل">Investissement & financement</a>
       </div>
 
       <div class="footer__col">
-        <h4 data-en="Contact">Contact</h4>
-        <a href="tel:+212000000000">+212 X XX XX XX XX</a>
-        <a href="mailto:info@melcorinternational.com">info@melcorinternational.com</a>
-        <span class="footer__text" data-en="10 Rue de la Liberté, 3rd floor, Apt 5 — Casablanca, Morocco">10 Rue de la Liberté, 3e étage, Apt 5 — Casablanca, Maroc</span>
-        <a href="https://www.melcorinternational.com">www.melcorinternational.com</a>
+        <h4 data-en="Contact" data-ar="اتصل بنا">Contact</h4>
+        <a href="tel:+212000000000" dir="ltr">+212 X XX XX XX XX</a>
+        <a href="mailto:info@melcorinternational.com" dir="ltr">info@melcorinternational.com</a>
+        <span class="footer__text" data-en="10 Rue de la Liberté, 3rd floor, Apt 5 — Casablanca, Morocco" data-ar="10 شارع الحرية، الطابق الثالث، شقة 5 — الدار البيضاء، المغرب">10 Rue de la Liberté, 3e étage, Apt 5 — Casablanca, Maroc</span>
+        <a href="https://www.melcorinternational.com" dir="ltr">www.melcorinternational.com</a>
       </div>
     </div>
     <div class="footer__bottom">
       <div class="container">
-        <p data-en="© 2026 Melcor International Group. All rights reserved.">© 2026 Melcor International Group. Tous droits réservés.</p>
+        <p data-en="© 2026 Melcor International Group. All rights reserved." data-ar="© 2026 ميلكور إنترناشيونال غروب. جميع الحقوق محفوظة.">© 2026 Melcor International Group. Tous droits réservés.</p>
         <nav class="footer__legal">
-          <a href="mentions-legales.html" data-en="Legal notice">Mentions légales</a>
-          <a href="confidentialite.html" data-en="Privacy policy">Politique de confidentialité</a>
+          <a href="mentions-legales.html" data-en="Legal notice" data-ar="الإشعار القانوني">Mentions légales</a>
+          <a href="confidentialite.html" data-en="Privacy policy" data-ar="سياسة الخصوصية">Politique de confidentialité</a>
         </nav>
       </div>
     </div>

@@ -97,22 +97,34 @@
   if (form) {
     form.addEventListener('submit', (e) => {
       e.preventDefault();
-      const en = typeof window.melcorLang === 'function' && window.melcorLang() === 'en';
+      const lang = typeof window.melcorLang === 'function' ? window.melcorLang() : 'fr';
       const name = form.elements.name.value.trim();
       const email = form.elements.email.value.trim();
       const message = form.elements.message.value.trim();
       const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 
+      const T = {
+        fr: {
+          err: 'Merci de renseigner un nom, un email valide et un message.',
+          ok: 'Merci ' + name + ' ! Votre message a bien été pris en compte. Nous vous répondrons sous 24h.'
+        },
+        en: {
+          err: 'Please enter a name, a valid email and a message.',
+          ok: 'Thank you ' + name + '! Your message has been received. We will reply within 24 hours.'
+        },
+        ar: {
+          err: 'يرجى إدخال الاسم وبريد إلكتروني صحيح ورسالة.',
+          ok: 'شكراً ' + name + '! تم استلام رسالتك، وسنردّ عليك خلال 24 ساعة.'
+        }
+      };
+      const t = T[lang] || T.fr;
+
       if (!name || !emailOk || !message) {
-        note.textContent = en
-          ? 'Please enter a name, a valid email and a message.'
-          : 'Merci de renseigner un nom, un email valide et un message.';
+        note.textContent = t.err;
         note.className = 'form__note err';
         return;
       }
-      note.textContent = en
-        ? 'Thank you ' + name + '! Your message has been received. We will reply within 24 hours.'
-        : 'Merci ' + name + ' ! Votre message a bien été pris en compte. Nous vous répondrons sous 24h.';
+      note.textContent = t.ok;
       note.className = 'form__note ok';
       form.reset();
     });
