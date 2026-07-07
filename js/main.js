@@ -50,6 +50,7 @@
   const counters = document.querySelectorAll('.stat__num');
   const animateCount = (el) => {
     const target = parseFloat(el.dataset.target);
+    if (isNaN(target)) return; // valeur statique (ex. "8–10") : ne pas animer
     const suffix = el.dataset.suffix || '';
     const duration = 1600;
     const start = performance.now();
