@@ -61,6 +61,10 @@ button{font-family:inherit;cursor:pointer;border:0;background:none}
 
 /* ---------- Logo ---------- */
 .brand{display:flex;align-items:center;gap:12px}
+.brand__img{height:42px;width:auto;display:block}
+.footer .brand__img{height:38px}
+/* footer sombre : l'icône navy devient blanche */
+.brand--light .brand__img{filter:brightness(0) invert(1)}
 .brand__logo svg .lg-arrow{fill:var(--navy)}
 .brand__logo svg .lg-bar{fill:var(--blue)}
 .brand__logo svg .lg-bar:nth-child(2){fill:#2b5cc9}
