@@ -1,5 +1,5 @@
 /* =========================================================
-   MELCOR — Trilingue FR / EN / AR (client-side)
+   MELCOR - Trilingue FR / EN / AR (client-side)
    Le texte français est la valeur par défaut du HTML ;
    les traductions sont dans data-en et data-ar.
    L'arabe passe automatiquement en RTL (dir="rtl").

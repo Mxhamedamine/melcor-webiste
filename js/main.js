@@ -1,5 +1,5 @@
 /* =========================================================
-   MELCOR INTERNATIONAL GROUP — Interactions
+   MELCOR INTERNATIONAL GROUP - Interactions
    ========================================================= */
 (function () {
   'use strict';
