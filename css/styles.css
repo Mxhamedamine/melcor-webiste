@@ -70,8 +70,9 @@ h1,h2,h3,h4{color:var(--text)}
 .btn--white:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
 
 /* ---------- Logo ---------- */
-.brand{display:flex;align-items:center;gap:12px}
-.brand__img{height:42px;width:auto;display:block}
+.brand{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.brand__logo{flex:none;display:inline-flex;align-items:center}
+.brand__img{height:42px;width:auto;max-width:none;flex:none;object-fit:contain;display:block}
 .footer .brand__img{height:38px}
 .brand--light .brand__img{filter:brightness(0) invert(1)}
 .brand__text{display:flex;flex-direction:column;line-height:1}
