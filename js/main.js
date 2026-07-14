@@ -77,7 +77,7 @@
   }
 
   /* ---------- Active nav link on scroll ---------- */
-  const sections = ['hero', 'about', 'services', 'method', 'faq', 'contact']
+  const sections = ['hero', 'about', 'experience', 'services', 'method', 'contact']
     .map((id) => document.getElementById(id))
     .filter(Boolean);
   const navLinks = nav.querySelectorAll('.nav__link');
